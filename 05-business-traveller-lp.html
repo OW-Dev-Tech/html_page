@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
+<title>HRX Transit Trolley | Built For 40 Flights A Year | Escape Plan</title>
+<meta name="description" content="Engineered for the business traveler. 6 stress tests passed. 5 year warranty. The trolley built to survive 200 flights." />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config={theme:{extend:{colors:{ink:'#0a0a0a',hrx:'#FF3D00',cream:'#f4f1ec',line:'#1f1f1f',mute:'#9a9a9a',paper:'#0d0c0a',ok:'#16a34a'},fontFamily:{display:['Anton','sans-serif'],body:['Manrope','sans-serif'],mono:['JetBrains Mono','monospace']}}}}
+</script>
+<style>
+*{-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+html,body{overflow-x:hidden}
+body{font-family:'Manrope',sans-serif;background:#f4f1ec;color:#0a0a0a;padding-bottom:88px}
+.display{font-family:'Anton',sans-serif;letter-spacing:-.01em;line-height:.9}
+.mono{font-family:'JetBrains Mono',monospace}
+.btn-primary{background:#FF3D00;color:#fff;transition:all .15s ease}
+.btn-primary:active{background:#0a0a0a;transform:scale(.98)}
+.btn-dark{background:#0a0a0a;color:#fff;transition:all .15s ease}
+.btn-dark:active{background:#FF3D00;transform:scale(.98)}
+.ticker{animation:tick 28s linear infinite}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tape{background:repeating-linear-gradient(45deg,#FF3D00,#FF3D00 10px,#0a0a0a 10px,#0a0a0a 20px)}
+details summary::-webkit-details-marker{display:none}
+details[open] .acc-icon{transform:rotate(45deg)}
+.acc-icon{transition:transform .25s}
+.grid-bg{background-image:linear-gradient(rgba(255,61,0,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,61,0,.07) 1px,transparent 1px);background-size:24px 24px}
+.lab-stamp{display:inline-flex;align-items:center;gap:6px;padding:3px 8px;border:1.5px solid #16a34a;color:#16a34a;font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border-radius:4px;background:rgba(22,163,74,.08)}
+.lab-stamp::before{content:'';width:6px;height:6px;background:#16a34a;border-radius:50%;display:inline-block;animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.4}}
+.bar-anim{animation:fillbar 1.2s ease-out forwards;transform-origin:left}
+@keyframes fillbar{from{transform:scaleX(0)}}
+.ring-pulse{box-shadow:0 0 0 0 rgba(255,61,0,.7);animation:rp 2s infinite}
+@keyframes rp{70%{box-shadow:0 0 0 10px rgba(255,61,0,0)}100%{box-shadow:0 0 0 0 rgba(255,61,0,0)}}
+.code-block{background:#050505;border:1px solid #1f1f1f;border-radius:12px;font-family:'JetBrains Mono',monospace}
+</style>
+</head>
+<body>
+
+<!-- Top ticker -->
+<div class="bg-ink text-cream text-[10px] py-1.5 overflow-hidden border-b border-line">
+  <div class="ticker whitespace-nowrap flex gap-8 mono uppercase">
+    <span>★ Built For 40 Flights A Year</span><span>★ 6 Stress Tests Passed</span><span>★ 5 Year Warranty</span><span>★ ₹10 Per Flight Over 5 Years</span><span>★ Free Shipping · COD</span>
+    <span>★ Built For 40 Flights A Year</span><span>★ 6 Stress Tests Passed</span><span>★ 5 Year Warranty</span><span>★ ₹10 Per Flight Over 5 Years</span><span>★ Free Shipping · COD</span>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="bg-cream border-b border-line/15 sticky top-0 z-40 backdrop-blur-md bg-cream/95">
+  <div class="px-4 py-3 flex items-center justify-between">
+    <a href="#" class="display text-xl tracking-tight">ESCAPE<span class="text-hrx">.</span>PLAN</a>
+    <div class="mono text-[9px] uppercase font-bold border border-hrx text-hrx px-2 py-1 rounded">FOR FREQUENT FLIERS</div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-ink text-cream px-4 pt-10 pb-8 relative overflow-hidden grid-bg">
+  <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-3">/ FILE: 001 · BUSINESS_TRAVELLER.SPEC</div>
+  <h1 class="display text-[52px] uppercase leading-[.85] mb-4">Built<br/>for the<br/>weekly<br/>flier.</h1>
+  <p class="text-base text-mute mb-6 leading-relaxed">40 flights a year. Two carousel handlings per trip. 400 thrown drops over 5 years. We engineered the HRX Transit Trolley to survive every single one of them.</p>
+
+  <!-- Stats row -->
+  <div class="grid grid-cols-3 gap-2 mb-6">
+    <div class="bg-line/40 border border-line rounded-xl p-3 text-center">
+      <div class="display text-3xl text-hrx leading-none">40</div>
+      <div class="mono text-[9px] uppercase text-mute font-bold mt-1.5">Flights /Y</div>
+    </div>
+    <div class="bg-line/40 border border-line rounded-xl p-3 text-center">
+      <div class="display text-3xl text-hrx leading-none">5</div>
+      <div class="mono text-[9px] uppercase text-mute font-bold mt-1.5">Year Cover</div>
+    </div>
+    <div class="bg-line/40 border border-line rounded-xl p-3 text-center">
+      <div class="display text-3xl text-hrx leading-none">6/6</div>
+      <div class="mono text-[9px] uppercase text-mute font-bold mt-1.5">Tests Passed</div>
+    </div>
+  </div>
+
+  <!-- Product image gallery -->
+  <div class="rounded-2xl overflow-hidden border border-line mb-5 bg-white">
+    <div class="gallery flex overflow-x-auto" id="hero-gal">
+      <div class="snap-c min-w-full aspect-square">
+        <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-9.jpg?v=1776506051&width=2000" alt="HRX with 5 year warranty and 14 day try and buy" class="w-full h-full object-contain" />
+      </div>
+      <div class="snap-c min-w-full aspect-square">
+        <img src="https://myescplan.com/cdn/shop/files/black-force_2.0-1_3a5ce8aa-35cb-4eb8-9df1-f130581779e3.jpg?v=1776506051&width=920" alt="HRX trolley black" class="w-full h-full object-contain" />
+      </div>
+      <div class="snap-c min-w-full aspect-square">
+        <img src="https://myescplan.com/cdn/shop/files/silver-force_2.0-1_1cfaebf1-7597-4d0b-adba-d2fc566c3214.jpg?v=1776506051&width=920" alt="HRX trolley silver" class="w-full h-full object-contain" />
+      </div>
+      <div class="snap-c min-w-full aspect-square">
+        <img src="https://myescplan.com/cdn/shop/files/19_f995e7aa-5dd6-4571-a496-50366bae93e9.jpg?v=1776506051&width=2000" alt="Business traveler walking with trolley" class="w-full h-full object-contain" />
+      </div>
+    </div>
+    <div class="flex justify-center gap-1.5 py-2.5 bg-ink border-t border-line" id="hero-dots">
+      <span class="w-5 h-1 bg-hrx rounded-full"></span>
+      <span class="w-1 h-1 bg-mute/40 rounded-full"></span>
+      <span class="w-1 h-1 bg-mute/40 rounded-full"></span>
+      <span class="w-1 h-1 bg-mute/40 rounded-full"></span>
+    </div>
+  </div>
+
+  <!-- Buy panel -->
+  <div class="bg-line/40 border border-line rounded-xl p-4">
+    <div class="flex items-end justify-between mb-3">
+      <div>
+        <div class="mono text-[10px] uppercase text-mute mb-1">Pay once. Fly for 5 years.</div>
+        <div class="display text-4xl text-hrx leading-none">₹1,999</div>
+      </div>
+      <div class="text-right">
+        <div class="mono text-[10px] uppercase text-mute line-through">₹10,999</div>
+        <div class="mono text-[10px] uppercase text-hrx font-bold">82% OFF</div>
+      </div>
+    </div>
+    <button class="btn-primary w-full py-4 rounded-xl font-bold text-sm uppercase mono ring-pulse">Add To Cart</button>
+    <div class="mono text-[10px] uppercase text-mute text-center mt-3">5 yr warranty · 14 day try & buy · Free shipping</div>
+  </div>
+</section>
+
+<div class="tape h-2"></div>
+
+<!-- COST PER FLIGHT MATH -->
+<section class="bg-cream px-4 py-12">
+  <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/01 The Math</div>
+  <h2 class="display text-[32px] uppercase leading-[.92] mb-6">₹10 per flight.<br/>For five years.</h2>
+
+  <div class="bg-white border border-ink/10 rounded-2xl p-5 mb-4">
+    <div class="space-y-3 mb-4">
+      <div class="flex items-center justify-between py-2 border-b border-ink/10">
+        <span class="text-sm">Bag Cost</span>
+        <span class="mono text-base font-bold">₹1,999</span>
+      </div>
+      <div class="flex items-center justify-between py-2 border-b border-ink/10">
+        <span class="text-sm">Your Flights / Year</span>
+        <span class="mono text-base font-bold">× 40</span>
+      </div>
+      <div class="flex items-center justify-between py-2 border-b border-ink/10">
+        <span class="text-sm">Warranty Coverage</span>
+        <span class="mono text-base font-bold">× 5 yr</span>
+      </div>
+      <div class="flex items-center justify-between py-2 border-b border-ink/10">
+        <span class="text-sm font-bold">Total Flights Covered</span>
+        <span class="mono text-base font-bold text-hrx">200</span>
+      </div>
+    </div>
+    <div class="bg-hrx text-white rounded-xl p-4 text-center">
+      <div class="mono text-[10px] uppercase opacity-90 mb-1">Cost Per Flight</div>
+      <div class="display text-5xl leading-none">₹10</div>
+      <div class="mono text-[10px] uppercase opacity-90 mt-2">Across 200 trips</div>
+    </div>
+  </div>
+
+  <div class="bg-ink text-cream rounded-2xl p-5">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-3">vs. one IndiGo overage fee</div>
+    <div class="flex items-end gap-4 mb-2">
+      <div class="flex-1">
+        <div class="mono text-[10px] uppercase text-mute">One missed cabin fee</div>
+        <div class="display text-3xl">₹2,000</div>
+      </div>
+      <div class="text-mute display text-2xl">=</div>
+      <div class="flex-1">
+        <div class="mono text-[10px] uppercase text-hrx font-bold">This bag</div>
+        <div class="display text-3xl text-hrx">₹1,999</div>
+      </div>
+    </div>
+    <div class="mono text-[10px] text-mute mt-3">Pays for itself the first time you avoid a check-in.</div>
+  </div>
+</section>
+
+<!-- STRESS TESTS (the big RTB) -->
+<section class="bg-ink text-cream px-4 py-12 relative overflow-hidden">
+  <div class="mb-5">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/02 Reasons To Believe</div>
+    <h2 class="display text-[32px] uppercase leading-[.92]">Six tests.<br/>Six passes.<br/>Zero shortcuts.</h2>
+    <p class="text-sm text-mute mt-3 leading-relaxed">Every Transit Trolley goes through our internal QC lab before shipping. Here's what we put it through.</p>
+  </div>
+
+  <!-- Components tested image -->
+  <div class="rounded-2xl overflow-hidden border border-line mb-6 bg-white">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-5.jpg?v=1776506051&width=921" alt="HRX components tested: lock, wheels, telescopic handle, water resistance" class="w-full h-auto" />
+  </div>
+  <div class="mono text-[10px] uppercase text-mute mb-6 text-center">↑ Every component pictured was independently lab-tested</div>
+
+  <!-- Test 1: Drop -->
+  <div class="code-block p-5 mb-3">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_01 · IMPACT</div>
+        <div class="display text-xl uppercase">Drop Test</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">50</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Drops onto concrete</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">1.2m</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Drop height</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Polycarbonate shell flexes on impact and recovers. Result: zero structural cracks across 50 consecutive drops.
+    </div>
+  </div>
+
+  <!-- Test 2: Wheel -->
+  <div class="code-block p-5 mb-3">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_02 · MILEAGE</div>
+        <div class="display text-xl uppercase">Wheel Roll</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">100km</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Abrasive treadmill</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">8/8</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Wheels operational</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Equivalent to 20 long-haul terminal walks. Sealed bearings, no flat spots, no axle wobble.
+    </div>
+  </div>
+
+  <!-- Test 3: Handle -->
+  <div class="code-block p-5 mb-3">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_03 · MECHANISM</div>
+        <div class="display text-xl uppercase">Handle Cycle</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">10,000</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Extend/Retract cycles</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">0</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Failures recorded</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Aluminium telescoping handle with push-button lock. 10,000 cycles = roughly 50 uses per trip across 200 trips.
+    </div>
+  </div>
+
+  <!-- Test 4: Zipper -->
+  <div class="code-block p-5 mb-3">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_04 · FATIGUE</div>
+        <div class="display text-xl uppercase">Zipper Cycling</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">10,000</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Open/Close cycles</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">YKK</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Grade hardware</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Twin-puller security zips on main compartment. Tested at 10,000 cycles with no slider misalignment or teeth split.
+    </div>
+  </div>
+
+  <!-- Test 5: Compression -->
+  <div class="code-block p-5 mb-3">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_05 · LOAD</div>
+        <div class="display text-xl uppercase">Compression</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">50kg</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Static load</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">24h</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Test duration</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Simulates a fully loaded bag stacked under others in the cargo hold. Shell returns to shape within 60 minutes of load release.
+    </div>
+  </div>
+
+  <!-- Test 6: Climate -->
+  <div class="code-block p-5 mb-6">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="mono text-[9px] uppercase text-mute mb-1">TEST_06 · CLIMATE</div>
+        <div class="display text-xl uppercase">Temperature</div>
+      </div>
+      <div class="lab-stamp">PASS</div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mb-3">
+      <div>
+        <div class="display text-3xl text-hrx leading-none">-20°C</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Cold cycle</div>
+      </div>
+      <div>
+        <div class="display text-3xl text-hrx leading-none">+60°C</div>
+        <div class="mono text-[9px] uppercase text-mute mt-1">Heat cycle</div>
+      </div>
+    </div>
+    <div class="bg-line/40 rounded-lg p-3 mono text-[10px] text-cream/80">
+      <span class="text-hrx">→</span> Tarmac heat. Cargo hold cold. Tested across 12 thermal cycles. No warping, no shell deformation, no zip-tape lift.
+    </div>
+  </div>
+
+  <!-- Summary box -->
+  <div class="bg-hrx text-white rounded-2xl p-5 mb-4">
+    <div class="mono text-[10px] uppercase tracking-widest font-bold mb-2 opacity-95">QC Report Summary</div>
+    <div class="display text-2xl uppercase leading-tight mb-3">All six tests.<br/>One bag.</div>
+    <p class="text-sm leading-relaxed opacity-95">Every unit shipped from our Bengaluru facility has been validated against this protocol. If a unit fails post-purchase within 5 years, we cover it.</p>
+  </div>
+
+  <!-- Durability proof image -->
+  <div class="rounded-2xl overflow-hidden border border-line bg-white">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-2.jpg?v=1776506051&width=920" alt="Unbreakable PP shell, 10% lighter, all airline approved" class="w-full h-auto" />
+  </div>
+</section>
+
+<!-- WHY IT WORKS FOR BUSINESS TRAVELLERS -->
+<section class="bg-cream px-4 py-12">
+  <div class="mb-6">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/03 What This Means For You</div>
+    <h2 class="display text-[32px] uppercase leading-[.92]">Frequent flier<br/>features.</h2>
+  </div>
+
+  <!-- Feature image: laptop pocket -->
+  <div class="bg-white rounded-2xl overflow-hidden border border-ink/10 mb-3">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-4.jpg?v=1776506051&width=920" alt="Quick access front compartment" class="w-full h-auto" />
+  </div>
+
+  <div class="space-y-3 mb-3">
+    <div class="bg-white border border-ink/10 rounded-xl p-5">
+      <div class="mono text-[9px] uppercase text-hrx font-bold mb-1">+45 seconds saved</div>
+      <h3 class="display text-xl uppercase mb-1">Front Laptop Pocket</h3>
+      <p class="text-sm text-mute leading-relaxed">Pull the laptop out at security without unzipping the main compartment. Fits 15.6". The bin clears faster, the line moves faster.</p>
+    </div>
+
+    <div class="bg-white border border-ink/10 rounded-xl p-5">
+      <div class="mono text-[9px] uppercase text-hrx font-bold mb-1">8 wheels, not 4</div>
+      <h3 class="display text-xl uppercase mb-1">Spinner Wheels (360°)</h3>
+      <p class="text-sm text-mute leading-relaxed">Push it sideways through narrow aisles. Roll it next to you, not behind you. Less shoulder strain across long terminals.</p>
+    </div>
+
+    <div class="bg-white border border-ink/10 rounded-xl p-5">
+      <div class="mono text-[9px] uppercase text-hrx font-bold mb-1">No keys to lose</div>
+      <h3 class="display text-xl uppercase mb-1">3-Dial Number Lock</h3>
+      <p class="text-sm text-mute leading-relaxed">Set a code, never carry a key. Locks the main compartment for hotel room peace of mind.</p>
+    </div>
+  </div>
+
+  <!-- Feature image: dimensions -->
+  <div class="bg-white rounded-2xl overflow-hidden border border-ink/10 mb-3">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-8.jpg?v=1776506051&width=2000" alt="Cabin approved dimensions" class="w-full h-auto" />
+  </div>
+
+  <div class="bg-white border border-ink/10 rounded-xl p-5 mb-3">
+    <div class="mono text-[9px] uppercase text-hrx font-bold mb-1">No check-in queue</div>
+    <h3 class="display text-xl uppercase mb-1">Cabin-Approved 55×35×25</h3>
+    <p class="text-sm text-mute leading-relaxed">Fits Indigo, Vistara, Air India, Akasa, SpiceJet hand baggage limits. Skip the carousel. Skip the wait. Walk straight to the cab.</p>
+  </div>
+
+  <!-- Feature image: capacity -->
+  <div class="bg-white rounded-2xl overflow-hidden border border-ink/10 mb-3">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-7.jpg?v=1776506051&width=2000" alt="48L interior with compression straps" class="w-full h-auto" />
+  </div>
+
+  <div class="bg-white border border-ink/10 rounded-xl p-5">
+    <div class="mono text-[9px] uppercase text-hrx font-bold mb-1">3-4 night trip ready</div>
+    <h3 class="display text-xl uppercase mb-1">47L With Compression Straps</h3>
+    <p class="text-sm text-mute leading-relaxed">5 shirts, 2 trousers, 1 jacket, shoes, tech. Compression straps lock it down. Mesh pocket for the dry-cleaning stub from last hotel.</p>
+  </div>
+</section>
+
+<!-- WEEK IN THE LIFE -->
+<section class="bg-white px-4 py-12">
+  <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/04 Week In The Life</div>
+  <h2 class="display text-[32px] uppercase leading-[.92] mb-5">A typical<br/>4-flight week.</h2>
+
+  <!-- Hero image: business traveler with trolley -->
+  <div class="rounded-2xl overflow-hidden border border-ink/10 mb-6 bg-cream">
+    <img src="https://myescplan.com/cdn/shop/files/19_f995e7aa-5dd6-4571-a496-50366bae93e9.jpg?v=1776506051&width=2000" alt="Business traveler walking through terminal with HRX trolley" class="w-full h-auto" />
+  </div>
+
+  <div class="space-y-3">
+    <div class="border-l-2 border-hrx pl-4 py-1">
+      <div class="mono text-[9px] uppercase text-hrx font-bold">Mon · 06:00</div>
+      <div class="text-sm font-bold mt-1">BLR → BOM</div>
+      <div class="text-sm text-mute mt-1">Laptop slides out at T2 security. Boarding before group 3.</div>
+    </div>
+    <div class="border-l-2 border-hrx/40 pl-4 py-1">
+      <div class="mono text-[9px] uppercase text-mute font-bold">Tue · 19:00</div>
+      <div class="text-sm font-bold mt-1">BOM → DEL</div>
+      <div class="text-sm text-mute mt-1">Hard shell takes a stack-up under three suitcases in the overhead.</div>
+    </div>
+    <div class="border-l-2 border-hrx/40 pl-4 py-1">
+      <div class="mono text-[9px] uppercase text-mute font-bold">Wed · 22:00</div>
+      <div class="text-sm font-bold mt-1">Hotel · Aerocity</div>
+      <div class="text-sm text-mute mt-1">Number lock on the main zip. Sleep without locking the safe.</div>
+    </div>
+    <div class="border-l-2 border-hrx/40 pl-4 py-1">
+      <div class="mono text-[9px] uppercase text-mute font-bold">Thu · 18:30</div>
+      <div class="text-sm font-bold mt-1">DEL → BLR</div>
+      <div class="text-sm text-mute mt-1">8 spinner wheels through a 1.2 km terminal walk. No shoulder strain.</div>
+    </div>
+  </div>
+
+  <div class="bg-cream rounded-xl p-4 mt-6">
+    <div class="mono text-[10px] uppercase text-mute mb-2">After 40 weeks like this</div>
+    <div class="display text-2xl uppercase leading-tight">160 flights. Still rolling.</div>
+  </div>
+</section>
+
+<!-- WARRANTY MATH -->
+<section class="bg-hrx text-white px-4 py-12 relative overflow-hidden">
+  <div class="absolute -right-8 -top-8 display text-[180px] opacity-15 leading-none">5Y</div>
+  <div class="relative">
+    <div class="mono text-[10px] uppercase tracking-widest font-bold mb-2 opacity-95">/05 The Cover</div>
+    <h2 class="display text-[32px] uppercase leading-[.92] mb-4">5 year<br/>warranty,<br/>quantified.</h2>
+    <p class="text-sm mb-5 opacity-95 leading-relaxed">Even after passing all six lab tests, things go wrong on the road. The warranty isn't a footer disclaimer. It's a five-year service contract.</p>
+    <div class="space-y-2.5">
+      <div class="flex items-start gap-3 border-b border-white/20 pb-2.5">
+        <span class="mono text-base font-bold">✓</span>
+        <div class="flex-1">
+          <div class="text-sm font-bold">Shell, wheels, handle, lock, zippers</div>
+          <div class="mono text-[10px] opacity-80 mt-0.5">Manufacturing defect → free repair</div>
+        </div>
+      </div>
+      <div class="flex items-start gap-3 border-b border-white/20 pb-2.5">
+        <span class="mono text-base font-bold">✓</span>
+        <div class="flex-1">
+          <div class="text-sm font-bold">Airline handler damage</div>
+          <div class="mono text-[10px] opacity-80 mt-0.5">1 claim per year covered</div>
+        </div>
+      </div>
+      <div class="flex items-start gap-3 border-b border-white/20 pb-2.5">
+        <span class="mono text-base font-bold">✓</span>
+        <div class="flex-1">
+          <div class="text-sm font-bold">WhatsApp pickup + return</div>
+          <div class="mono text-[10px] opacity-80 mt-0.5">Free door-to-door, 5-8 days end to end</div>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="mono text-base font-bold">✓</span>
+        <div class="flex-1">
+          <div class="text-sm font-bold">After year 5</div>
+          <div class="mono text-[10px] opacity-80 mt-0.5">40% off lifetime repairs at HRX centres</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND TRUST: Hrithik signal -->
+<section class="bg-ink text-cream relative">
+  <div class="aspect-square w-full bg-white">
+    <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-3.jpg?v=1776506051&width=920" alt="Approved by Hrithik Roshan" class="w-full h-full object-cover" />
+  </div>
+  <div class="px-4 py-10">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-3">/05.5 Designed By</div>
+    <h2 class="display text-[28px] uppercase mb-3 leading-[.95]">Hrithik Roshan.<br/>For people on the move.</h2>
+    <p class="text-sm text-mute leading-relaxed">HRX was built around movement. 18 months of testing across film sets, hotels, and airports went into the Transit Trolley before it shipped to customers.</p>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="bg-cream px-4 py-12">
+  <div class="mb-6">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/06 Compared</div>
+    <h2 class="display text-[32px] uppercase leading-[.92]">vs Premium<br/>business bags.</h2>
+  </div>
+
+  <div class="bg-white border border-ink/10 rounded-xl overflow-hidden">
+    <div class="bg-ink text-cream px-4 py-3 grid grid-cols-4 gap-2 mono text-[10px] uppercase font-bold">
+      <span>Spec</span>
+      <span class="text-center">HRX</span>
+      <span class="text-center text-mute">Premium A</span>
+      <span class="text-center text-mute">Premium B</span>
+    </div>
+    <div class="divide-y divide-ink/10 text-xs">
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Price</span>
+        <span class="text-center text-hrx font-bold mono">₹1,999</span>
+        <span class="text-center text-mute mono">₹8,999</span>
+        <span class="text-center text-mute mono">₹14,999</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Front Laptop Pocket</span>
+        <span class="text-center text-hrx">✓</span>
+        <span class="text-center text-mute">✓</span>
+        <span class="text-center text-mute">✗</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">8 Spinner Wheels</span>
+        <span class="text-center text-hrx">✓</span>
+        <span class="text-center text-mute">4</span>
+        <span class="text-center text-mute">✓</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Polycarbonate</span>
+        <span class="text-center text-hrx">✓</span>
+        <span class="text-center text-mute">ABS</span>
+        <span class="text-center text-mute">✓</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Warranty</span>
+        <span class="text-center text-hrx font-bold mono">5 Y</span>
+        <span class="text-center text-mute mono">2 Y</span>
+        <span class="text-center text-mute mono">10 Y</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Cost / Flight (200)</span>
+        <span class="text-center text-hrx font-bold mono">₹10</span>
+        <span class="text-center text-mute mono">₹45</span>
+        <span class="text-center text-mute mono">₹75</span>
+      </div>
+      <div class="px-4 py-2.5 grid grid-cols-4 gap-2">
+        <span class="font-semibold">Try & Buy</span>
+        <span class="text-center text-hrx">14d</span>
+        <span class="text-center text-mute">✗</span>
+        <span class="text-center text-mute">30d</span>
+      </div>
+    </div>
+  </div>
+  <div class="mono text-[10px] text-mute mt-3 text-center">Comparison based on similar 22" laptop cabin trolleys. Specs as listed by competing brands.</div>
+</section>
+
+<!-- REVIEWS -->
+<section class="bg-white px-4 py-12">
+  <div class="mb-6">
+    <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/07 From The Frequent Fliers</div>
+    <h2 class="display text-[32px] uppercase leading-[.92]">Verified<br/>by the road.</h2>
+  </div>
+
+  <div class="space-y-3">
+    <div class="bg-cream border border-ink/10 rounded-xl p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="text-hrx text-sm">★★★★★</div>
+        <span class="mono text-[10px] uppercase font-bold">Verified · 60+ flights</span>
+      </div>
+      <p class="text-sm mb-2 leading-relaxed">"3 flights a week for 14 months. Wheels still smooth, lock still works, zip still bites. The matte black has scuffed but nothing structural."</p>
+      <div class="flex items-center gap-3 pt-3 border-t border-ink/10">
+        <div class="w-9 h-9 rounded-full bg-hrx flex items-center justify-center text-white text-xs font-bold">RM</div>
+        <div>
+          <div class="text-xs font-bold">Rohit Malhotra · Sales Director</div>
+          <div class="mono text-[10px] text-mute uppercase">Mumbai</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-cream border border-ink/10 rounded-xl p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="text-hrx text-sm">★★★★★</div>
+        <span class="mono text-[10px] uppercase font-bold">Verified · 40+ flights</span>
+      </div>
+      <p class="text-sm mb-2 leading-relaxed">"Bought it expecting to upgrade in a year. It's been 11 months and 38 flights. The front laptop pocket is the feature I didn't know I needed."</p>
+      <div class="flex items-center gap-3 pt-3 border-t border-ink/10">
+        <div class="w-9 h-9 rounded-full bg-hrx flex items-center justify-center text-white text-xs font-bold">AP</div>
+        <div>
+          <div class="text-xs font-bold">Aditi Patel · Consultant</div>
+          <div class="mono text-[10px] text-mute uppercase">Bengaluru</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-cream border border-ink/10 rounded-xl p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="text-hrx text-sm">★★★★<span class="text-mute">★</span></div>
+        <span class="mono text-[10px] uppercase font-bold">Verified · 50+ flights</span>
+      </div>
+      <p class="text-sm mb-2 leading-relaxed">"Wheel cracked in year 2. WhatsApp claim, pickup next day, returned Friday. Free. The warranty actually works."</p>
+      <div class="flex items-center gap-3 pt-3 border-t border-ink/10">
+        <div class="w-9 h-9 rounded-full bg-hrx flex items-center justify-center text-white text-xs font-bold">SK</div>
+        <div>
+          <div class="text-xs font-bold">Sanjay Kumar · Banker</div>
+          <div class="mono text-[10px] text-mute uppercase">Delhi</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="bg-ink text-cream px-4 py-12">
+  <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-2">/08 Questions From The Road</div>
+  <h2 class="display text-[32px] uppercase mb-6 leading-[.92]">For the heavy<br/>flier.</h2>
+
+  <div class="space-y-2">
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Will it last 200 flights?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Based on internal stress testing and current customer data from frequent fliers logging 40+ flights/year, the trolley's load-bearing components are engineered for at least the 5-year warranty window. If anything fails in that window, we cover it.</div>
+    </details>
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Cabin size for all airlines?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Yes. 55×35×25 cm fits Indigo (115 cm linear), Vistara, Air India, Akasa and SpiceJet hand baggage. Also fits major international carrier cabin policies (Singapore, Emirates, Lufthansa).</div>
+    </details>
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Can I claim warranty mid-trip?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Send a photo on WhatsApp (+91 97405 08909). We dispatch a replacement to your hotel address if the bag is unusable. Repair claims handled after you return home.</div>
+    </details>
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Are the stress tests certified?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Tests are run at HRX's internal QC facility in Bengaluru. Test protocols are based on standard luggage durability benchmarks. We don't claim third-party ISTA certification but happy to share the test data sheet on email request.</div>
+    </details>
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Does GST invoice come for business expense?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Yes. Add your GSTIN at checkout. Invoice issued in the company name, eligible for input credit and travel-expense reimbursement.</div>
+    </details>
+    <details class="bg-line/40 border border-line rounded-xl">
+      <summary class="px-4 py-4 flex justify-between items-center cursor-pointer">
+        <span class="text-sm font-bold pr-3">Why so much cheaper than premium brands?</span>
+        <span class="acc-icon display text-hrx text-2xl leading-none">+</span>
+      </summary>
+      <div class="px-4 pb-4 text-sm text-mute">Same materials. Same engineering. No retail markup, no marketplace commission, no celebrity endorsement budget. Sold direct from the manufacturing partner.</div>
+    </details>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="bg-cream px-4 py-14 text-center">
+  <div class="mono text-[10px] uppercase tracking-widest text-hrx font-bold mb-3">/09 Last Stop</div>
+  <h2 class="display text-[44px] uppercase leading-[.85] mb-4">200 flights<br/>start at<br/>₹1,999.</h2>
+  <p class="text-sm text-mute mb-6">If you fly 40 times a year, this is a ₹10 line item per trip. Pays for itself in skipped baggage fees alone.</p>
+  <div class="bg-white border border-ink/10 rounded-2xl p-5 mb-3 text-left">
+    <div class="aspect-square bg-cream rounded-xl overflow-hidden mb-4">
+      <img src="https://myescplan.com/cdn/shop/files/Black-Force2.0-9.jpg?v=1776506051&width=2000" alt="HRX trolley with 5 year warranty" class="w-full h-full object-contain" />
+    </div>
+    <div class="flex items-end justify-between mb-4">
+      <div>
+        <div class="display text-5xl text-hrx leading-none">₹1,999</div>
+        <div class="mono text-[10px] uppercase text-mute mt-1 line-through">₹10,999</div>
+      </div>
+      <div class="text-right">
+        <div class="lab-stamp">6/6 PASS</div>
+      </div>
+    </div>
+    <button class="btn-primary w-full py-4 rounded-xl font-bold text-sm uppercase mono ring-pulse">Add To Cart</button>
+  </div>
+  <div class="mono text-[10px] uppercase text-mute">5 yr warranty · 14 day try & buy · Free shipping · GST invoice</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-ink text-cream px-4 py-8">
+  <a href="#" class="display text-3xl tracking-tight block mb-4">ESCAPE<span class="text-hrx">.</span>PLAN</a>
+  <div class="grid grid-cols-2 gap-y-4 gap-x-3 mono text-[10px] uppercase mb-6">
+    <a href="#" class="text-mute">Shipping</a><a href="#" class="text-mute">Returns</a><a href="#" class="text-mute">Warranty</a><a href="#" class="text-mute">Track Order</a><a href="#" class="text-mute">Contact</a><a href="#" class="text-mute">FAQ</a>
+  </div>
+  <div class="mono text-[10px] text-mute border-t border-line pt-4">© Enchante Brands Pvt Ltd. HRX by Hrithik Roshan.</div>
+</footer>
+
+<!-- STICKY CTA -->
+<div class="fixed bottom-0 left-0 right-0 bg-white border-t border-ink/10 px-3 py-2.5 z-50 flex items-center gap-2 shadow-2xl">
+  <div class="flex-shrink-0">
+    <div class="display text-xl text-hrx leading-none">₹1,999</div>
+    <div class="mono text-[8px] text-mute uppercase">₹10/flight</div>
+  </div>
+  <button class="btn-primary flex-1 py-3 rounded-lg font-bold text-xs uppercase mono">Add To Cart</button>
+</div>
+
+<script>
+const gal=document.getElementById('hero-gal');const dots=document.getElementById('hero-dots');
+if(gal&&dots){gal.addEventListener('scroll',()=>{const i=Math.round(gal.scrollLeft/gal.offsetWidth);[...dots.children].forEach((d,n)=>{d.className=n===i?'w-5 h-1 bg-hrx rounded-full':'w-1 h-1 bg-mute/40 rounded-full'})})}
+</script>
+
+</body>
+</html>
